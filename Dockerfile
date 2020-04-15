@@ -2,7 +2,7 @@
 FROM ubuntu:18.04
 
 RUN apt-get update && \
-    apt-get install -y cmake && \
+    apt-get install -y cmake make gcc && \
     apt-get install -y libpoco-dev libavahi-client-dev && \
     apt-get clean
 
