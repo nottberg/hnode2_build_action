@@ -1,6 +1,6 @@
 #!/bin/sh -l
 
-echo ${$GITHUB_WORKSPACE}
+echo $GITHUB_WORKSPACE
 rootls=$(ls -lah)
 echo "Root $rootls"
 cd ${GITHUB_WORKSPACE}
